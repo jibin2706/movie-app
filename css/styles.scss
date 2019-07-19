@@ -1,0 +1,79 @@
+@import "button";
+@import "footer";
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.search__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__footer {
+  padding: 3rem 0;
+  input {
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 0.5rem;
+  }
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  max-width: 200px;
+  padding: 1rem;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__title {
+  //   display: block;
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    max-width: 120px;
+  }
+}
+
+// modals
+.modals {
+  position: absolute;
+  width: 70vw;
+  height: 30vh;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: grey;
+}
+
+.add-movie-dialog {
+}
+
+.my-movie-dialog {
+}

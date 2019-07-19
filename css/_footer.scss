@@ -1,0 +1,18 @@
+@import "colors";
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__legal__links {
+  margin: 1rem 0;
+  a {
+    text-decoration: none;
+    color: $dark-grey;
+  }
+}

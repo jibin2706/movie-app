@@ -1,0 +1,26 @@
+@import "colors";
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: $primary;
+  color: $white;
+}
+
+.btn-secondary {
+  background: $primary-light;
+  color: $white;
+}
+
+select {
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  background: $primary;
+  color: $white;
+}
