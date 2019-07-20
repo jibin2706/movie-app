@@ -8,12 +8,12 @@
   cursor: pointer;
 }
 
-.btn-primary {
+.btn--primary {
   background: $primary;
   color: $white;
 }
 
-.btn-secondary {
+.btn--secondary {
   background: $primary-light;
   color: $white;
 }
@@ -28,7 +28,7 @@ select {
 }
 
 @media (max-width: 500px) {
-  .btn,
+  .btn--block,
   select {
     width: 100%;
     margin: 0.5rem 0;
