@@ -4,6 +4,7 @@
   box-shadow: 0 2px 5px rgba($dark-grey, 0.2);
   padding: 0.5rem;
   position: sticky;
+  z-index: 100;
   top: 0;
   background: $white;
 }
@@ -11,7 +12,7 @@
 .search__header {
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .search__footer {
@@ -19,7 +20,7 @@
   input {
     border: none;
     box-sizing: border-box;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $dark-grey;
     display: block;
     width: 100%;
     outline: none;
