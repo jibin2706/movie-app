@@ -1,10 +1,8 @@
 @import "colors";
 
 .footer {
-  max-width: 1200px;
-  margin: auto;
-  padding: 1rem;
-  margin-top: 3rem;
+  padding: 2rem;
+  box-shadow: inset 0 1px 3px rgba($dark-grey, 0.2);
   display: flex;
   justify-content: space-between;
 }
@@ -14,5 +12,33 @@
   a {
     text-decoration: none;
     color: $dark-grey;
+  }
+}
+
+.footer__social__links {
+  text-align: end;
+  img {
+    width: 25px;
+    margin: 0.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__legal {
+    order: 2;
+    margin: 1rem 0;
+  }
+
+  .footer__social {
+    order: 1;
+    margin: 1rem 0;
+  }
+
+  .footer__social__links {
+    text-align: left;
   }
 }

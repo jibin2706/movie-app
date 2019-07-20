@@ -1,0 +1,36 @@
+.card {
+  max-width: 200px;
+  padding: 1rem;
+}
+
+.card__image {
+  width: 100%;
+
+  &::after {
+    content: "add";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__title {
+  //   display: block;
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    max-width: 120px;
+  }
+}
